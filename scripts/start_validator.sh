@@ -1,6 +1,10 @@
 #!/bin/bash
 solana config set --url localhost
-solana-test-validator --reset --quiet &
+
+solana-test-validator -r -q \
+  --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb \
+  --url https://api.mainnet-beta.solana.com &
+
 echo $! > validator.pid
 sleep 5
 if ! pgrep -f solana-test-validator; then

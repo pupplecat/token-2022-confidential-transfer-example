@@ -1,2 +1,6 @@
 test-ledger
 *.json
+*.pid
+
+# Added by cargo
+/target
