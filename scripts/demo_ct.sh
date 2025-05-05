@@ -9,7 +9,7 @@ TOKEN2022_PROGRAM_ID="TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
 # Verify validator is running
 if ! pgrep -f solana-test-validator; then
   echo "================================================================="
-  echo "ERROR: Validator not running. Please start it with './start_validator.sh'."
+  echo "ERROR: Validator not running. Please start it with './scripts/start_validator.sh'."
   echo "================================================================="
   exit 1
 fi
@@ -144,5 +144,5 @@ echo "Notice the pending_balance field—it's encrypted! In the Explorer, you'd 
 read -p "Press Enter to continue..."
 
 echo "================================================================="
-echo "DEMO COMPLETE! 🈲🈲🈲 Stop the validator with './stop_validator.sh'."
+echo "DEMO COMPLETE! 🈲🈲🈲 Stop the validator with './scripts/stop_validator.sh'."
 echo "================================================================="
