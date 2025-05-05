@@ -5,7 +5,7 @@ This repository demonstrates the Token2022 Confidential Transfer (CT) Extension 
 1. Shell scripts for a step-by-step demo.
 2. Rust examples for programmatic interaction.
 
-**Related Talk**: [Token-2022 Confidential Transfer Talk](https://github.com/pupplecat/token-2022-confidential-transfer-talk)
+**Related Talk**: [Token-2022 Confidential Transfer Talk](https://pupplecat.github.io/token-2022-confidential-transfer-talk)
 
 ## Run from Shell Scripts
 
